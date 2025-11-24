@@ -26,6 +26,7 @@ $ git push origin master
 git pull origin master
 
 8) HAGO CAMBIOS MANUALES EN FICH EN LOCAL PARA SIMULAR QUE LOS SUBO A GITHUB
-
-
+$ git add .
+$ git commit -m "Completo Harry Potter y el Señor de los Anillos"
+$ git push origin master
 
