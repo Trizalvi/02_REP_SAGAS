@@ -1,4 +1,31 @@
-1) CREO EL REPOSITORIO
+1) CREO EL REPOSITORIO EN LOCAL
 $ git init
 
-2)
+2) CONFIGURO EL REPOSITORIO LOCAL
+$ git config --global user.name "Patricia"
+$ git config --global user.email "patalvvil@alu.edu.gva.es"
+
+3) OBSERVO EL ESTADO
+$ git status
+
+4) AGREGO TODOS LOS FICHEROS AL REPO LOCAL
+$ git add .
+$ git commit -m "commit inicial sagas"
+$ git status
+
+5) CREO MANUALMENTE EN GITHUB EL REPO:
+botón NEW > le llamo 02_REP_SAGAS
+
+5) SUBO EL REPO LOCAL A GITHUB
+$ git remote add origin https://github.com/Trizalvi/02_REP_SAGAS.git
+$ git push origin master
+
+6) HAGO CAMBIOS MANUALES EN FICHS DE GITHUB PARA AHORA SIMULAR QUE ME BAJO LOS CAMBIOS
+
+7) BAJO A LOCAL LOS CAMBIOS
+git pull origin master
+
+8) HAGO CAMBIOS MANUALES EN FICH EN LOCAL PARA SIMULAR QUE LOS SUBO A GITHUB
+
+
+
