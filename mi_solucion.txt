@@ -1,0 +1,4 @@
+1) CREO EL REPOSITORIO
+$ git init
+
+2)
